@@ -1,5 +1,5 @@
 {
-  "name": "simplenight-ui",
+  "name": "@simplenightdv/simplenight-ui",
   "version": "0.0.1",
   "description": "Simplenight Library: Proof of Concept",
   "scripts": {
@@ -12,6 +12,7 @@
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.3.3",
     "@types/react": "^18.0.15",
+    "postcss": "^8.4.14",
     "react": "^18.2.0",
     "rollup": "^2.76.0",
     "rollup-plugin-dts": "^4.2.2",
@@ -24,5 +25,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/simplenightdv"
+  }
 }
