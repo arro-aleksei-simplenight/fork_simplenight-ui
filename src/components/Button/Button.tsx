@@ -1,5 +1,5 @@
 import React from "react";
-interface IButton {
+export interface IButton {
   label: string;
 }
 

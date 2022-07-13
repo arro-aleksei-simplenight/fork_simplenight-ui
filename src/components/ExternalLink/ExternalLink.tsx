@@ -1,5 +1,5 @@
 import React from "react";
-interface LinkProps {
+export interface LinkProps {
   href: string;
   children: React.ReactNode;
   className?: string;
