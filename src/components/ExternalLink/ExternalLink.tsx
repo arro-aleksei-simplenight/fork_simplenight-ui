@@ -1,11 +1,12 @@
-import React from "react";
+import React from 'react';
+
 export interface LinkProps {
   href: string;
   children: React.ReactNode;
   className?: string;
 }
 
-const ExternalLink = ({ href, children, className, ...others }: LinkProps) => {
+function ExternalLink({ href, children, className, ...others }: LinkProps) {
   return (
     <a
       href={href}
@@ -17,6 +18,8 @@ const ExternalLink = ({ href, children, className, ...others }: LinkProps) => {
       {children}
     </a>
   );
-};
+}
+
+ExternalLink.defaultProps = { className: '' };
 
 export default ExternalLink;

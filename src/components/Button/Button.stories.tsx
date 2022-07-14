@@ -1,9 +1,9 @@
-import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import React from 'react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import Button from "./Button";
+import Button from './Button';
 
-const title = "SimplenightUI/";
+const title = 'SimplenightUI/';
 
 export default {
   title: `${title}Button`,
@@ -14,10 +14,10 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 
 export const Test = Template.bind({});
 Test.args = {
-  label: "Test!",
+  label: 'Test!',
 };
 
 export const Click = Template.bind({});
 Click.args = {
-  label: "Click",
+  label: 'Click',
 };

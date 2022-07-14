@@ -1,9 +1,9 @@
-import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
+import React from 'react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import ExternalLink from "./ExternalLink";
+import ExternalLink from './ExternalLink';
 
-const title = "SimplenightUI/";
+const title = 'SimplenightUI/';
 
 export default {
   title: `${title}ExternalLink`,
@@ -16,6 +16,6 @@ const Template: ComponentStory<typeof ExternalLink> = (args) => (
 
 export const Google = Template.bind({});
 Google.args = {
-  href: "https://google.com",
+  href: 'https://google.com',
   children: <>Google</>,
 };
