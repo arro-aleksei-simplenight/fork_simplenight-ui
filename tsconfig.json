@@ -13,8 +13,14 @@
     "outDir": "dist",
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true,
-    "include": ["src"],
-    "exclude": ["**/*.stories.tsx", "**/*.test.ts", "**/*.test.tsx"]
-  }
+    "emitDeclarationOnly": true
+  },
+  "include": ["./src", "./**/*.ts", "./**/*.tsx"],
+  "exclude": [
+    "./node_modules",
+    "./dist",
+    "./**/*.stories.tsx",
+    "./**/*.test.ts",
+    "./**/*.test.tsx"
+  ]
 }
