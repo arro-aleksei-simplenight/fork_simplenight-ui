@@ -4,6 +4,7 @@ import { SVGProps } from 'react';
 const SvgNightlife = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    fill="none"
     viewBox="0 0 21.332 23.968"
     {...props}
   >

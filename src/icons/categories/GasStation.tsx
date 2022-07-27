@@ -4,6 +4,7 @@ import { SVGProps } from 'react';
 const SvgGasStation = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
+    fill="none"
     viewBox="0 0 24.047 24.396"
     {...props}
   >

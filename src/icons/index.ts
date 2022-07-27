@@ -1,3 +1,3 @@
-export * from './assets';
-export * from './assets/amenities';
+export * from './regular';
+export * from './amenities';
 export * from './categories';
