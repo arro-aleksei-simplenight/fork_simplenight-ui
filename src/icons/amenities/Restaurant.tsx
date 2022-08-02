@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const SvgRestaurantSmall = (props: SVGProps<SVGSVGElement>) => (
+const SvgRestaurant = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g clipPath="url(#restaurant-small_svg__a)">
+    <g clipPath="url(#restaurant_svg__a)">
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -17,11 +17,11 @@ const SvgRestaurantSmall = (props: SVGProps<SVGSVGElement>) => (
       />
     </g>
     <defs>
-      <clipPath id="restaurant-small_svg__a">
+      <clipPath id="restaurant_svg__a">
         <path fill="#fff" d="M0 0h24v24H0z" />
       </clipPath>
     </defs>
   </svg>
 );
 
-export default SvgRestaurantSmall;
+export default SvgRestaurant;

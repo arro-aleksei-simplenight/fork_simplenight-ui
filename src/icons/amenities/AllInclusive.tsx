@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const SvgAllInclusiveSmall = (props: SVGProps<SVGSVGElement>) => (
+const SvgAllInclusive = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
     viewBox="0 0 24 24"
@@ -15,4 +15,4 @@ const SvgAllInclusiveSmall = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default SvgAllInclusiveSmall;
+export default SvgAllInclusive;

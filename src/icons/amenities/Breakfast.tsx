@@ -1,29 +1,29 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const SvgBreakfastLarge = (props: SVGProps<SVGSVGElement>) => (
+const SvgBreakfast = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
     viewBox="0 0 49 48"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g clipPath="url(#breakfast-large_svg__a)">
-      <g clipPath="url(#breakfast-large_svg__b)" fill="currentColor">
+    <g clipPath="url(#breakfast_svg__a)">
+      <g clipPath="url(#breakfast_svg__b)" fill="currentColor">
         <path d="M44.007 15.069a18.307 18.307 0 0 1-4.344-5.4C35.573 2.955 31.53-.994 13.599 4.815c-9.09 2.98-9.243 11.315-9.293 15.759.023.76-.028 1.521-.152 2.272-.102.252-.354.708-.6 1.212-1.818 3.384-6.718 12.477 1.818 18.842a17.123 17.123 0 0 0 10.557 3.636 34.089 34.089 0 0 0 9.699-1.868 40.7 40.7 0 0 1 4-1.112 25.897 25.897 0 0 1 4.9-.252c4.749.102 10.66.2 11.113-8.689.2-1.72.643-3.404 1.314-5 1.599-4.243 3.467-9.647-2.948-14.547Zm.252 13.689a21.337 21.337 0 0 0-1.464 5.8c-.304 6.06-3.282 6.01-8.183 5.91-1.857-.1-3.72.002-5.556.304-1.45.313-2.884.7-4.294 1.163-5.305 1.616-11.315 3.434-17.68-1.315-5.708-4.294-3.89-9.8-1.01-15.153.294-.484.547-.99.758-1.516a9.813 9.813 0 0 0 .356-3.326c.05-4.294.152-10.759 7.275-13.03 17.073-5.557 19.547-1.517 22.63 3.585a21.558 21.558 0 0 0 5.05 6.163c4.848 3.636 3.634 7.07 2.118 11.415Z" />
         <path d="M24.358 13.15a11.01 11.01 0 1 0 11.01 11.011 11.037 11.037 0 0 0-11.01-11.01Zm0 19.144a8.132 8.132 0 1 1 7.515-5.02 8.127 8.127 0 0 1-7.515 5.02Z" />
         <path d="M24.358 18.403A5.755 5.755 0 0 0 18.6 24.16a1.465 1.465 0 0 0 2.93 0 2.825 2.825 0 0 1 2.828-2.828 1.465 1.465 0 0 0 0-2.93Z" />
       </g>
     </g>
     <defs>
-      <clipPath id="breakfast-large_svg__a">
+      <clipPath id="breakfast_svg__a">
         <path fill="#fff" transform="translate(.5)" d="M0 0h48v48H0z" />
       </clipPath>
-      <clipPath id="breakfast-large_svg__b">
+      <clipPath id="breakfast_svg__b">
         <path fill="#fff" transform="translate(.5)" d="M0 0h48v48H0z" />
       </clipPath>
     </defs>
   </svg>
 );
 
-export default SvgBreakfastLarge;
+export default SvgBreakfast;

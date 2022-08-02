@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
 
-const SvgKingBedSmall = (props: SVGProps<SVGSVGElement>) => (
+const SvgKingBed = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
     viewBox="0 0 24 24"
@@ -15,4 +15,4 @@ const SvgKingBedSmall = (props: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default SvgKingBedSmall;
+export default SvgKingBed;
