@@ -3,9 +3,8 @@ import { SVGProps } from 'react';
 
 const SvgImageEmpty = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={100}
-    height={86}
     fill="none"
+    viewBox="0 0 100 86"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

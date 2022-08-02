@@ -3,9 +3,8 @@ import { SVGProps } from 'react';
 
 const SvgLocationMarker = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={40}
-    height={40}
     fill="none"
+    viewBox="0 0 40 40"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

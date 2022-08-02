@@ -3,9 +3,8 @@ import { SVGProps } from 'react';
 
 const SvgSmallTrash = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={13}
-    height={14}
     fill="none"
+    viewBox="0 0 13 14"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

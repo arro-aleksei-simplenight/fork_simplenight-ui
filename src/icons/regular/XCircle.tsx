@@ -3,9 +3,8 @@ import { SVGProps } from 'react';
 
 const SvgXCircle = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={22}
-    height={22}
     fill="none"
+    viewBox="0 0 22 22"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

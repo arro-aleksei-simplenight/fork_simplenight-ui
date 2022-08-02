@@ -3,9 +3,8 @@ import { SVGProps } from 'react';
 
 const SvgSimplenightLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={95}
-    height={36}
     fill="none"
+    viewBox="0 0 95 36"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

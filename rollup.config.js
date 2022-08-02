@@ -25,7 +25,10 @@ export default [
       resolve(),
       commonjs(),
       typescript({ tsconfig: './tsconfig.json', sourceMap: true }),
-      postcss({ extensions: ['.css'] }),
+      postcss({
+        extensions: ['.css', 'sass'],
+        minimize: true,
+      }),
     ],
   },
   {

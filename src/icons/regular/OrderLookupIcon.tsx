@@ -3,9 +3,8 @@ import { SVGProps } from 'react';
 
 const SvgOrderLookupIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={71}
-    height={87}
     fill="none"
+    viewBox="0 0 71 87"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

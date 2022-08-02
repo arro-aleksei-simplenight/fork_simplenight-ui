@@ -3,9 +3,8 @@ import { SVGProps } from 'react';
 
 const SvgSpaLarge = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={49}
-    height={48}
     fill="none"
+    viewBox="0 0 49 48"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

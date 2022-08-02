@@ -3,9 +3,8 @@ import { SVGProps } from 'react';
 
 const SvgCarouselRightArrow = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={52}
-    height={56}
     fill="none"
+    viewBox="0 0 52 56"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

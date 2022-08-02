@@ -3,9 +3,8 @@ import { SVGProps } from 'react';
 
 const SvgLocationPin = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={16}
-    height={20}
     fill="none"
+    viewBox="0 0 16 20"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

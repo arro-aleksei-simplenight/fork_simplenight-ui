@@ -3,9 +3,8 @@ import { SVGProps } from 'react';
 
 const SvgMultiplePersons = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    width={22}
-    height={18}
     fill="none"
+    viewBox="0 0 22 18"
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >

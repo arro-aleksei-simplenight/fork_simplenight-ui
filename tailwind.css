@@ -4,4 +4,5 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'src/styles/index.css';
+@import 'src/styles/base.css';
+@import 'src/styles/customLibraries.css';

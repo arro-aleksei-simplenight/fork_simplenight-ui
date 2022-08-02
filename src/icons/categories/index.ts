@@ -1,5 +1,4 @@
 export { default as BagsIcon } from './BagsIcon';
-export { default as Bed } from './Bed';
 export { default as CatCars } from './CatCars';
 export { default as CatDining } from './CatDining';
 export { default as CatDiscover } from './CatDiscover';
