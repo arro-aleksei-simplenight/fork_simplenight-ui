@@ -2,6 +2,14 @@
 
 This is the first Simplenight UI draft
 
+## **Initialize project**
+
+```
+npm run initialize or
+yarn initialize or
+pnpm run initialize
+```
+
 ## **How to install this package**
 
 1. First you should have .npmrc configured with your GITHUB_TOKEN, as it uses github packages
