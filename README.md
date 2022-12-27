@@ -10,6 +10,16 @@ yarn initialize or
 pnpm run initialize
 ```
 
+## **Run project**
+
+```
+npm run storybook or
+yarn storybook or
+pnpm run storybook
+```
+
+This will run in port 6006.
+
 ## **How to install this package**
 
 1. First you should have .npmrc configured with your GITHUB_TOKEN, as it uses github packages
