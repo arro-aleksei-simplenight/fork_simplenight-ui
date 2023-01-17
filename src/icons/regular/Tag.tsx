@@ -14,5 +14,4 @@ const SvgTag = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgTag;

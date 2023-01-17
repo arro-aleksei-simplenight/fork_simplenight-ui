@@ -15,5 +15,4 @@ const SvgStarOutlined = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgStarOutlined;

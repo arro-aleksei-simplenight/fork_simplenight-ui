@@ -55,5 +55,4 @@ const SvgCarouselLeftArrow = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgCarouselLeftArrow;

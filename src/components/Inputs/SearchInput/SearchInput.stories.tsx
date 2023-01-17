@@ -1,11 +1,10 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { titles } from '../../../constants';
 import SearchInput from './SearchInput';
 
-const title = 'SimplenightUI/Inputs/';
-
 export default {
-  title: `${title}Search Input`,
+  title: `${titles.inputs}Search Input`,
   component: SearchInput,
 } as ComponentMeta<typeof SearchInput>;
 

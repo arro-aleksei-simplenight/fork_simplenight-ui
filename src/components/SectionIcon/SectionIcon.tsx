@@ -19,7 +19,10 @@ const SectionIcon = ({
       className={`${colorClass} rounded-full grid place-content-center`}
       style={{ width: `${sizeRem}rem`, height: `${sizeRem}rem` }}
     >
-      <section className="text-white" style={{ width: `${sizeIcon}rem`, height: `${sizeIcon}rem` }}>
+      <section
+        className="text-white"
+        style={{ width: `${sizeIcon}rem`, height: `${sizeIcon}rem` }}
+      >
         {icon}
       </section>
     </section>

@@ -21,5 +21,4 @@ const SvgCatDining = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgCatDining;

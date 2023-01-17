@@ -14,5 +14,4 @@ const SvgCheckmark = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgCheckmark;

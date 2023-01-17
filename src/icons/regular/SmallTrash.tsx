@@ -14,5 +14,4 @@ const SvgSmallTrash = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgSmallTrash;

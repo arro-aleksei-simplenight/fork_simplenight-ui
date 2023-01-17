@@ -14,5 +14,4 @@ const SvgCalendar = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgCalendar;

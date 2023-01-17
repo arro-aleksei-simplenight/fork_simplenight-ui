@@ -17,5 +17,4 @@ const SvgGasStation = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default SvgGasStation;

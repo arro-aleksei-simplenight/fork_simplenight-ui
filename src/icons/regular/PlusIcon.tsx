@@ -14,5 +14,4 @@ const SvgPlusIcon = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgPlusIcon;

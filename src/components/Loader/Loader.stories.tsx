@@ -1,11 +1,10 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { titles } from '../../constants';
 import Loader from './Loader';
 
-const title = 'SimplenightUI/';
-
 export default {
-  title: `${title}Loader`,
+  title: `${titles.components}Loader`,
   component: Loader,
 } as ComponentMeta<typeof Loader>;
 

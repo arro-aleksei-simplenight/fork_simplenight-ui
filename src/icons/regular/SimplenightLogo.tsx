@@ -29,5 +29,4 @@ const SvgSimplenightLogo = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgSimplenightLogo;

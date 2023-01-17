@@ -14,5 +14,4 @@ const SvgMap = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgMap;

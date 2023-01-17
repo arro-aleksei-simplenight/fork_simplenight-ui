@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import title from '../../constants/constants';
+import { titles } from '../../constants';
 
 import Counter from './Counter';
 
 export default {
-  title: `${title}Counter`,
+  title: `${titles.components}Counter`,
   component: Counter,
 } as ComponentMeta<typeof Counter>;
 

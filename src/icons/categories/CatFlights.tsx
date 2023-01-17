@@ -26,5 +26,4 @@ const SvgCatFlights = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgCatFlights;

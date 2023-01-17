@@ -14,5 +14,4 @@ const SvgCreditCard = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgCreditCard;

@@ -1,12 +1,10 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
+import { titles } from '../../../constants';
 import PasswordInput from '.';
 
-const title = 'SimplenightUI/Inputs/';
-
 export default {
-  title: `${title}Password Input`,
+  title: `${titles.inputs}Password Input`,
   component: PasswordInput,
 } as ComponentMeta<typeof PasswordInput>;
 

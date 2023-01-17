@@ -26,5 +26,4 @@ const SvgHotTub = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgHotTub;

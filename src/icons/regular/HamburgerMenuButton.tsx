@@ -14,5 +14,4 @@ const SvgHamburgerMenuButton = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgHamburgerMenuButton;

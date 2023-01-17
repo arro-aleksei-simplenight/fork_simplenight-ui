@@ -1,12 +1,10 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
+import { titles } from '../../constants';
 import ExternalLink from './ExternalLink';
 
-const title = 'SimplenightUI/';
-
 export default {
-  title: `${title}ExternalLink`,
+  title: `${titles.text}ExternalLink`,
   component: ExternalLink,
 } as ComponentMeta<typeof ExternalLink>;
 

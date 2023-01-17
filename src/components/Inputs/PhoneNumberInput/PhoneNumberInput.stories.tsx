@@ -1,11 +1,10 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { titles } from '../../../constants';
 import PhoneNumberInput from './PhoneNumberInput';
 
-const title = 'SimplenightUI/Inputs/';
-
 export default {
-  title: `${title}Phone Number Input`,
+  title: `${titles.inputs}Phone Number Input`,
   component: PhoneNumberInput,
 } as ComponentMeta<typeof PhoneNumberInput>;
 

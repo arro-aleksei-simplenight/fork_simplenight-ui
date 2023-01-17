@@ -108,5 +108,4 @@ const SvgImageEmpty = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgImageEmpty;

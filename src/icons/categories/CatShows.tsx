@@ -19,5 +19,4 @@ const SvgCatShows = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgCatShows;

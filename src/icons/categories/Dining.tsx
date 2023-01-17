@@ -20,5 +20,4 @@ const SvgDining = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default SvgDining;

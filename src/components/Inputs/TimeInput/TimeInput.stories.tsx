@@ -1,11 +1,10 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { titles } from '../../../constants';
 import TimeInput from '.';
 
-const title = 'SimplenightUI/Inputs/';
-
 export default {
-  title: `${title}Time Input`,
+  title: `${titles.inputs}Time Input`,
   component: TimeInput,
 } as ComponentMeta<typeof TimeInput>;
 

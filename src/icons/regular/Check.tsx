@@ -14,5 +14,4 @@ const SvgCheck = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgCheck;

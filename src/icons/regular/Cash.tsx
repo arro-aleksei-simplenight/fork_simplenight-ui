@@ -14,5 +14,4 @@ const SvgCash = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgCash;

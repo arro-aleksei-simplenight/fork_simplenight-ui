@@ -1,12 +1,10 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
+import { titles } from '../../../constants';
 import TravelersInput from '.';
 
-const title = 'SimplenightUI/Inputs/';
-
 export default {
-  title: `${title}Travelers Input`,
+  title: `${titles.inputs}Travelers/Travelers Input`,
   component: TravelersInput,
 } as ComponentMeta<typeof TravelersInput>;
 

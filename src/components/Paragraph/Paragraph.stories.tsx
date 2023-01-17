@@ -1,11 +1,10 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
+import { titles } from '../../constants';
 import Paragraph from './Paragraph';
-import title from '../../constants/constants';
 
 export default {
-  title: `${title}Paragraph`,
+  title: `${titles.text}Paragraph`,
   component: Paragraph,
 } as ComponentMeta<typeof Paragraph>;
 

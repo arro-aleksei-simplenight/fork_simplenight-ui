@@ -1,16 +1,15 @@
 /* eslint-disable react/jsx-no-useless-fragment */
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
+import { titles } from '../../constants';
 import Modal from './Modal';
 import ModalHeader from './components/ModalHeader';
 import ModalBody from './components/ModalBody';
 import ModalFooter from './components/ModalFooter';
 import Button from '../Button/Button';
 
-const title = 'SimplenightUI/';
-
 export default {
-  title: `${title}Modal`,
+  title: `${titles.layouts}Modal`,
   component: Modal,
 } as ComponentMeta<typeof Modal>;
 

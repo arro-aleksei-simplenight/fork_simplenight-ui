@@ -1,12 +1,10 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
+import { titles } from '../../../constants';
 import TextArea from '.';
 
-const title = 'SimplenightUI/Inputs/';
-
 export default {
-  title: `${title}Text Area`,
+  title: `${titles.inputs}Text Area`,
   component: TextArea,
 } as ComponentMeta<typeof TextArea>;
 

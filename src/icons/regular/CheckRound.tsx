@@ -14,5 +14,4 @@ const SvgCheckRound = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgCheckRound;

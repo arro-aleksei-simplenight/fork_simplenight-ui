@@ -1,11 +1,11 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import title from '../../../constants/constants';
+import { titles } from '../../../constants';
 
 import NumberInput from '.';
 
 export default {
-  title: `${title}Number Input`,
+  title: `${titles.inputs}Number Input`,
   component: NumberInput,
 } as ComponentMeta<typeof NumberInput>;
 

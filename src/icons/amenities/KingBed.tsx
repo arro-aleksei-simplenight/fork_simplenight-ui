@@ -14,5 +14,4 @@ const SvgKingBed = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgKingBed;

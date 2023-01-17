@@ -15,5 +15,4 @@ const SvgTourActivities = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgTourActivities;

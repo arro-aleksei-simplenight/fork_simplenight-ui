@@ -14,5 +14,4 @@ const SvgPhoneCall = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgPhoneCall;

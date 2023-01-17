@@ -1,12 +1,10 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
+import { titles } from '../../constants';
 import Heading from './Heading';
 
-const title = 'SimplenightUI/';
-
 export default {
-  title: `${title}Heading`,
+  title: `${titles.text}Heading`,
   component: Heading,
 } as ComponentMeta<typeof Heading>;
 

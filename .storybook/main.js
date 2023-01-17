@@ -14,4 +14,13 @@ module.exports = {
     },
   ],
   framework: '@storybook/react',
+  webpackFinal: async (config, { configType }) => {
+    config.node = {
+      ...config.node,
+      fs: false,
+      stream: false,
+      os: false,
+    };
+    return config;
+  },
 };

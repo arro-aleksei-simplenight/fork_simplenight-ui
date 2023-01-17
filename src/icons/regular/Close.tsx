@@ -14,5 +14,4 @@ const SvgClose = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgClose;

@@ -19,5 +19,4 @@ const SvgMileage = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default SvgMileage;

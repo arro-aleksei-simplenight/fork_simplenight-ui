@@ -11,5 +11,4 @@ const SvgMinusIcon = (props: SVGProps<SVGSVGElement>) => (
     <path d="M15 0H1a1 1 0 0 0 0 2h14a1 1 0 1 0 0-2Z" fill="currentColor" />
   </svg>
 );
-
 export default SvgMinusIcon;

@@ -14,5 +14,4 @@ const SvgLocationPin = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgLocationPin;

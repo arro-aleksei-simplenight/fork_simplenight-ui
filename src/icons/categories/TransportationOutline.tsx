@@ -15,5 +15,4 @@ const SvgTransportationOutline = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgTransportationOutline;

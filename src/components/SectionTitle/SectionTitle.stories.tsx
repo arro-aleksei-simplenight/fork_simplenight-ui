@@ -2,17 +2,17 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Calendar } from '../../icons/regular';
-
+import { titles } from '../../constants';
 import SectionTitle from './SectionTitle';
 
-const title = 'SimplenightUI/';
-
 export default {
-  title: `${title}SectionTitle`,
+  title: `${titles.components}SectionTitle`,
   component: SectionTitle,
 } as ComponentMeta<typeof SectionTitle>;
 
-const Template: ComponentStory<typeof SectionTitle> = (args) => <SectionTitle {...args} />;
+const Template: ComponentStory<typeof SectionTitle> = (args) => (
+  <SectionTitle {...args} />
+);
 
 export const DefaulTitle = Template.bind({});
 export const CustomIcon = Template.bind({});

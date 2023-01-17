@@ -14,5 +14,4 @@ const SvgAngleTop = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgAngleTop;

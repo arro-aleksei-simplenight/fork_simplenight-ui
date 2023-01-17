@@ -14,5 +14,4 @@ const SvgFilter = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgFilter;

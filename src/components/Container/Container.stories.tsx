@@ -2,11 +2,11 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import Container from './Container';
-import title from '../../constants/constants';
+import { titles } from '../../constants';
 import Paragraph from '../Paragraph/Paragraph';
 
 export default {
-  title: `${title}Container`,
+  title: `${titles.layouts}Container`,
   component: Container,
 } as ComponentMeta<typeof Container>;
 

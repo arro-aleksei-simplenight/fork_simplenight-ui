@@ -14,5 +14,4 @@ const SvgMagnifier = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgMagnifier;

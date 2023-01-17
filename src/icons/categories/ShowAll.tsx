@@ -24,5 +24,4 @@ const SvgShowAll = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default SvgShowAll;

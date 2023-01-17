@@ -21,5 +21,4 @@ const SvgWifi = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgWifi;

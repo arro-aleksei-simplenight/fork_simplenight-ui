@@ -2,12 +2,12 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import MinusIcon from '../../icons/regular/MinusIcon';
 import PlusIcon from '../../icons/regular/PlusIcon';
-import title from '../../constants/constants';
+import { titles } from '../../constants';
 
 import DualButton from './DualButton';
 
 export default {
-  title: `${title}DualButton`,
+  title: `${titles.components}DualButton`,
   component: DualButton,
 } as ComponentMeta<typeof DualButton>;
 

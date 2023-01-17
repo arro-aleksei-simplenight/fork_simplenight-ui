@@ -14,5 +14,4 @@ const SvgMultiplePersons = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgMultiplePersons;

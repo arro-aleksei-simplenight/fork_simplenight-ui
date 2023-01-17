@@ -1,12 +1,10 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
+import { titles } from '../../constants';
 import Toggle from './Toggle';
 
-const title = 'SimplenightUI/';
-
 export default {
-  title: `${title}Toggle`,
+  title: `${titles.inputs}Toggle`,
   component: Toggle,
 } as ComponentMeta<typeof Toggle>;
 

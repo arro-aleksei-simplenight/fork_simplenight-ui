@@ -18,5 +18,4 @@ const SvgCasino = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgCasino;

@@ -76,5 +76,4 @@ const SvgEmptyState = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgEmptyState;

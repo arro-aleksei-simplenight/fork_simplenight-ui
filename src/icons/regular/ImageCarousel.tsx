@@ -14,5 +14,4 @@ const SvgImageCarousel = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgImageCarousel;

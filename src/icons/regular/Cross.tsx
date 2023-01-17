@@ -14,5 +14,4 @@ const SvgCross = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgCross;

@@ -1,13 +1,11 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
+import { titles } from '../../constants';
 import Disclaimer from './Disclaimer';
 import { InfoCircle } from '../../icons';
 
-const title = 'SimplenightUI/';
-
 export default {
-  title: `${title}Disclaimer`,
+  title: `${titles.components}Disclaimer`,
   component: Disclaimer,
 } as ComponentMeta<typeof Disclaimer>;
 

@@ -14,5 +14,4 @@ const SvgCustomer = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgCustomer;

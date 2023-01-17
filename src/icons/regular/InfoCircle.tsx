@@ -14,5 +14,4 @@ const SvgInfoCircle = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgInfoCircle;

@@ -1,14 +1,12 @@
 /* eslint-disable react/button-has-type */
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
+import { titles } from '../../constants';
 import Tooltip from './Tooltip';
 import QuestionCircle from '../../icons/regular/QuestionCircle';
 
-const title = 'SimplenightUI/';
-
 export default {
-  title: `${title}Tooltip`,
+  title: `${titles.components}Tooltip`,
   component: Tooltip,
 } as ComponentMeta<typeof Tooltip>;
 
@@ -23,7 +21,9 @@ export const QuestionCirlceTooltip = Template.bind({});
 
 DefaultTooltip.args = {
   text: 'Hello World',
-  children: <button className="bg-dark-200 p-1 rounded text-dark-700">Hover me</button>,
+  children: (
+    <button className="bg-dark-200 p-1 rounded text-dark-700">Hover me</button>
+  ),
 };
 
 QuestionCirlceTooltip.args = {

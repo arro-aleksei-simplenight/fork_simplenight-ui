@@ -15,5 +15,4 @@ const SvgCheckIcon = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgCheckIcon;

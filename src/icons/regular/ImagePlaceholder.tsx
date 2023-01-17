@@ -14,5 +14,4 @@ const SvgImagePlaceholder = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgImagePlaceholder;

@@ -14,5 +14,4 @@ const SvgTransportation = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgTransportation;

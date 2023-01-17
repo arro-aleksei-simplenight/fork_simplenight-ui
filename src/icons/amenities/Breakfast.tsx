@@ -25,5 +25,4 @@ const SvgBreakfast = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgBreakfast;

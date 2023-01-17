@@ -15,5 +15,4 @@ const SvgNightlife = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgNightlife;

@@ -14,5 +14,4 @@ const SvgEmail = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgEmail;

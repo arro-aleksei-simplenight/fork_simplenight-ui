@@ -14,5 +14,4 @@ const SvgAllInclusive = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgAllInclusive;

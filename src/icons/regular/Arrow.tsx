@@ -14,5 +14,4 @@ const SvgArrow = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgArrow;

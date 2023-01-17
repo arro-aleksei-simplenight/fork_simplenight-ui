@@ -9,8 +9,8 @@ interface ColorStates {
 const getPrimaryColors = () => ({
   default: 'bg-primary-1000 border-transparent text-white',
   hover: 'hover:bg-primary-800 hover:text-white',
-  focused: 'focus:bg-red-800 focus:border-primary-600 focus:text-white',
-  pressed: 'active:bg-red-800 active:border-primary-600 active:text-white',
+  focused: 'focus:bg-primary-800 focus:border-primary-600 focus:text-white',
+  pressed: 'active:bg-primary-800 active:border-primary-600 active:text-white',
   disabled: 'bg-dark-300 border-transparent text-dark-700',
 });
 

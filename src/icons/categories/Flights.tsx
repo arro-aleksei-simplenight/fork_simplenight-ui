@@ -17,5 +17,4 @@ const SvgFlights = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default SvgFlights;

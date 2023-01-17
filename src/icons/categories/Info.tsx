@@ -15,5 +15,4 @@ const SvgInfo = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgInfo;

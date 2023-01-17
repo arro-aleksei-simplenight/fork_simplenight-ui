@@ -138,5 +138,4 @@ const SvgOrderLookupIcon = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgOrderLookupIcon;

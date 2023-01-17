@@ -1,16 +1,16 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
+import { titles } from '../../constants';
 import Checkbox from './Checkbox';
 
-const title = 'SimplenightUI/';
-
 export default {
-  title: `${title}Checkbox`,
+  title: `${titles.inputs}Checkbox`,
   component: Checkbox,
 } as ComponentMeta<typeof Checkbox>;
 
-const Template: ComponentStory<typeof Checkbox> = (args) => <Checkbox {...args} />;
+const Template: ComponentStory<typeof Checkbox> = (args) => (
+  <Checkbox {...args} />
+);
 
 export const HelloCheckbox = Template.bind({});
 export const CheckedSmall = Template.bind({});

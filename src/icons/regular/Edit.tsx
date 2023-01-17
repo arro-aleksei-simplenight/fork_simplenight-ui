@@ -14,5 +14,4 @@ const SvgEdit = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgEdit;

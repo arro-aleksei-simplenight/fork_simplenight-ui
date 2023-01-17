@@ -1,13 +1,11 @@
 /* eslint-disable react/button-has-type */
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
+import { titles } from '../../constants';
 import Label from './Label';
 
-const title = 'SimplenightUI/';
-
 export default {
-  title: `${title}Label`,
+  title: `${titles.text}Label`,
   component: Label,
 } as ComponentMeta<typeof Label>;
 

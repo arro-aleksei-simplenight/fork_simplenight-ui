@@ -14,5 +14,4 @@ const SvgLanguage = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgLanguage;

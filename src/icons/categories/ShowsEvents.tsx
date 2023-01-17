@@ -17,5 +17,4 @@ const SvgShowsEvents = (props: SVGProps<SVGSVGElement>) => (
     </g>
   </svg>
 );
-
 export default SvgShowsEvents;

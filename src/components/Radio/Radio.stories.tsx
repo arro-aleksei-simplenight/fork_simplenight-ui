@@ -1,13 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-
+import { titles } from '../../constants';
 import Radio from './Radio';
 
-const title = 'SimplenightUI/';
-
 export default {
-  title: `${title}Radio`,
+  title: `${titles.inputs}Radio`,
   component: Radio,
 } as ComponentMeta<typeof Radio>;
 

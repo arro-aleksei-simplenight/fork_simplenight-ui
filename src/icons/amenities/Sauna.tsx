@@ -18,5 +18,4 @@ const SvgSauna = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgSauna;

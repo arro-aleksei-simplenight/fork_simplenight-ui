@@ -14,5 +14,4 @@ const SvgExclamation = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgExclamation;
