@@ -12,7 +12,5 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           version: 16.x
-          cache: 'pnpm'
-
       - run: npm install --frozen-lockfile
       - run: npm run test && build
