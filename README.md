@@ -20,6 +20,10 @@ pnpm run storybook
 
 This will run in port 6006.
 
+## **Working on the proyect**
+
+Run `yarn changeset` to update current versioning with patch and describe your task or Add the jira ticket. Like a commit.
+
 ## **How to install this package**
 
 1. First you should have .npmrc configured with your GITHUB_TOKEN, as it uses github packages
