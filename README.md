@@ -2,6 +2,8 @@
 
 This is the first Simplenight UI draft
 
+URL: https://simplenightdv.github.io/simplenight-ui
+
 ## **Initialize project**
 
 ```
