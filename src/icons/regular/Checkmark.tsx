@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgCheckmark = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -14,5 +13,4 @@ const SvgCheckmark = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgCheckmark;

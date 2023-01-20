@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgOrderLookupIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -138,5 +137,4 @@ const SvgOrderLookupIcon = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgOrderLookupIcon;

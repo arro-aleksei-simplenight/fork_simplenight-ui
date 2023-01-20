@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgLocationMarker = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -53,5 +52,4 @@ const SvgLocationMarker = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgLocationMarker;

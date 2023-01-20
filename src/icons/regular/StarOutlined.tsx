@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgStarOutlined = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -15,5 +14,4 @@ const SvgStarOutlined = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgStarOutlined;

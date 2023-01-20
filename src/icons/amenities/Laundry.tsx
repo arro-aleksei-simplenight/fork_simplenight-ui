@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgLaundry = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -26,5 +25,4 @@ const SvgLaundry = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgLaundry;

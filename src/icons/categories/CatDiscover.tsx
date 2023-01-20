@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgCatDiscover = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 24 24"
@@ -24,5 +23,4 @@ const SvgCatDiscover = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgCatDiscover;

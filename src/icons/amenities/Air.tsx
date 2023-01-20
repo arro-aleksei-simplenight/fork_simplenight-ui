@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgAir = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -24,5 +23,4 @@ const SvgAir = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgAir;

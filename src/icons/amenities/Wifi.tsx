@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgWifi = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -21,5 +20,4 @@ const SvgWifi = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgWifi;

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgEmptyState = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -76,5 +75,4 @@ const SvgEmptyState = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgEmptyState;

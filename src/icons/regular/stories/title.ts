@@ -1,3 +1,3 @@
-const title = 'SimplenightUI/Icons/Regular/';
+const title = 'Icons/Regular/';
 
 export default title;

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgSpa = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -23,5 +22,4 @@ const SvgSpa = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgSpa;

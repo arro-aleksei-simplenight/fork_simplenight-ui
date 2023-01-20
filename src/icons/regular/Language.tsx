@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgLanguage = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -14,5 +13,4 @@ const SvgLanguage = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SvgLanguage;

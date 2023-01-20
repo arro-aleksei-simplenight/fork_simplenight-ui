@@ -1,0 +1,43 @@
+.radio-label {
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.radio-input {
+    margin: 0;
+    visibility: hidden;
+}
+
+.radio-input:checked+span {
+    border-width: 2px;
+}
+
+.radio-input:checked+span span {
+    opacity: 1;
+}
+
+.custom-radio {
+    left: -8px;
+    top: 0;
+    cursor: pointer;
+    border-width: 1px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.custom-radio__check {
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.radio-content {
+    display: block;
+}

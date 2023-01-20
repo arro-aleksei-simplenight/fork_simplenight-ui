@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgCatCars = (props: SVGProps<SVGSVGElement>) => (
   <svg
     viewBox="0 0 24 24"
@@ -21,5 +20,4 @@ const SvgCatCars = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgCatCars;

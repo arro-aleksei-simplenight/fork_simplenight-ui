@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
-
 const SvgSimplenightLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -29,5 +28,4 @@ const SvgSimplenightLogo = (props: SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default SvgSimplenightLogo;
