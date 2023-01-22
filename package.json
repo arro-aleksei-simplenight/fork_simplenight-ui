@@ -7,12 +7,11 @@
     "compile-icons": "npx @svgr/cli -d src/icons src/icons --typescript",
     "copy-files": "copyfiles --up 1 src/styles/fonts/* dist/",
     "css": "postcss src/styles/**/*.css --base src --dir dist --config postcss.config.js",
-    "build": "rollup -c",
     "test": "jest",
+    "build": "rollup -c",
     "storybook": "start-storybook -p 6006 -s ./.storybook/images",
     "build-storybook": "build-storybook",
-    "prebuild": "rm -rf ./dist && yarn compile-icons && yarn copy-files && yarn css && yarn test",
-    "prepublish": "yarn build"
+    "prebuild": "rm -rf ./dist && yarn compile-icons && yarn copy-files && yarn css && yarn test"
   },
   "author": "Simplenight Team",
   "license": "MIT",
