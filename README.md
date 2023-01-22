@@ -26,6 +26,12 @@ This will run in port 6006.
 
 Run `yarn changeset` to update current versioning with patch and describe your task or Add the jira ticket. Like a commit.
 
+## **Adding Icons to the library**
+
+Remember always to remove the height and width from the svg file.
+After that, run `yarn compile-icons` to convert the svg file to a react component.
+Finally, add the icon to the `src/icons/index.ts` and `src/icons/Icons.stories.mdx` files with a storybook story in its category.
+
 ## **How to install this package**
 
 1. First you should have .npmrc configured with your GITHUB_TOKEN, as it uses github packages

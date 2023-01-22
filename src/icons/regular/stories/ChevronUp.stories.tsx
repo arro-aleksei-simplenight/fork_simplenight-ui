@@ -2,15 +2,15 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import title from './title';
 
-import Simplenight from '../SimplenightLogo';
+import ChevronUp from '../ChevronUp';
 
 export default {
-  title: `${title}SimplenightLogo`,
-  component: Simplenight,
-} as ComponentMeta<typeof Simplenight>;
+  title: `${title}ChevronUp`,
+  component: ChevronUp,
+} as ComponentMeta<typeof ChevronUp>;
 
-const Template: ComponentStory<typeof Simplenight> = (args) => (
-  <Simplenight {...args} />
+const Template: ComponentStory<typeof ChevronUp> = (args) => (
+  <ChevronUp {...args} />
 );
 
 export const Default = Template.bind({});

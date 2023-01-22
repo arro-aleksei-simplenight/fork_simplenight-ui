@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
+
 const SvgRestaurant = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -17,7 +18,7 @@ const SvgRestaurant = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <clipPath id="restaurant_svg__a">
-        <path fill="#fff" d="M0 0h24v24H0z" />
+        <path fill="currentColor" d="M0 0h24v24H0z" />
       </clipPath>
     </defs>
   </svg>

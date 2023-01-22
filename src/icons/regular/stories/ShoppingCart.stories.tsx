@@ -2,15 +2,15 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import title from './title';
 
-import ImageEmpty from '../ImageEmpty';
+import ShoppingCart from '../ShoppingCart';
 
 export default {
-  title: `${title}ImageEmpty`,
-  component: ImageEmpty,
-} as ComponentMeta<typeof ImageEmpty>;
+  title: `${title}ShoppingCart`,
+  component: ShoppingCart,
+} as ComponentMeta<typeof ShoppingCart>;
 
-const Template: ComponentStory<typeof ImageEmpty> = (args) => (
-  <ImageEmpty {...args} />
+const Template: ComponentStory<typeof ShoppingCart> = (args) => (
+  <ShoppingCart {...args} />
 );
 
 export const Default = Template.bind({});

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
+
 const SvgWifi = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -15,7 +16,7 @@ const SvgWifi = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <clipPath id="wifi_svg__a">
-        <path fill="#fff" transform="translate(.5)" d="M0 0h48v48H0z" />
+        <path fill="currentColor" transform="translate(.5)" d="M0 0h48v48H0z" />
       </clipPath>
     </defs>
   </svg>

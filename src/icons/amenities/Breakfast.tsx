@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { SVGProps } from 'react';
+
 const SvgBreakfast = (props: SVGProps<SVGSVGElement>) => (
   <svg
     fill="none"
@@ -16,10 +17,10 @@ const SvgBreakfast = (props: SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <clipPath id="breakfast_svg__a">
-        <path fill="#fff" transform="translate(.5)" d="M0 0h48v48H0z" />
+        <path fill="currentColor" transform="translate(.5)" d="M0 0h48v48H0z" />
       </clipPath>
       <clipPath id="breakfast_svg__b">
-        <path fill="#fff" transform="translate(.5)" d="M0 0h48v48H0z" />
+        <path fill="currentColor" transform="translate(.5)" d="M0 0h48v48H0z" />
       </clipPath>
     </defs>
   </svg>
