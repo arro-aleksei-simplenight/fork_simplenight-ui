@@ -2021,7 +2021,7 @@
     lodash "^4.17.21"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-docs@6.5.15":
+"@storybook/addon-docs@6.5.15", "@storybook/addon-docs@^6.5.15":
   version "6.5.15"
   resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-6.5.15.tgz#d5f4b991636953f30daea6aa89d5bfdfa97b9116"
   integrity sha512-k3LAu+wVp6pNhfh6B1soCRl6+7sNTNxtqy6WTrIeVJVCGbXbyc5s7gQ48gJ4WAk6meoDEZbypiP4NK1El03YLg==
@@ -4880,7 +4880,7 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001359:
+caniuse-lite@^1.0.0:
   version "1.0.30001365"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001365.tgz#72c2c3863b1a545cfd3d9953535bd2ee17568158"
   integrity sha512-VDQZ8OtpuIPMBA4YYvZXECtXbddMCUFJk1qu8Mqxfm/SZJNSr1cy4IuLCOL7RJ/YASrvJcYg1Zh+UEUQ5m6z8Q==
@@ -4890,10 +4890,15 @@ caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001370.tgz#0a30d4f20d38b9e108cc5ae7cc62df9fe66cd5ba"
   integrity sha512-3PDmaP56wz/qz7G508xzjx8C+MC2qEm4SYhSEzC9IBROo+dGXFWRuaXkWti0A9tuI00g+toiriVqxtWMgl350g==
 
-caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001335:
+caniuse-lite@^1.0.30001109:
   version "1.0.30001366"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001366.tgz#c73352c83830a9eaf2dea0ff71fb4b9a4bbaa89c"
   integrity sha512-yy7XLWCubDobokgzudpkKux8e0UOOnLHE6mlNJBzT3lZJz6s5atSEzjoL+fsCPkI0G8MP5uVdDx1ur/fXEWkZA==
+
+caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
+  version "1.0.30001446"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001446.tgz#6d4ba828ab19f49f9bcd14a8430d30feebf1e0c5"
+  integrity sha512-fEoga4PrImGcwUUGEol/PoFCSBnSkA9drgdkxXkJLsUBOnJ8rs3zDv6ApqYXGQFOyMPsjh79naWhF4DAxbF8rw==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -8654,7 +8659,7 @@ jest-circus@^28.1.3:
     slash "^3.0.0"
     stack-utils "^2.0.3"
 
-jest-cli@^28.1.3:
+jest-cli@^28.1.2:
   version "28.1.3"
   resolved "https://registry.yarnpkg.com/jest-cli/-/jest-cli-28.1.3.tgz#558b33c577d06de55087b8448d373b9f654e46b2"
   integrity sha512-roY3kvrv57Azn1yPgdTebPAXvdR2xfezaKKYzVxZ6It/5NCxzJym6tUI5P1zkdWhfUYkxEI9uZWcQdaFLo8mJQ==
@@ -9063,7 +9068,12 @@ jest@^28.1.2:
     "@jest/core" "^28.1.3"
     "@jest/types" "^28.1.3"
     import-local "^3.0.2"
-    jest-cli "^28.1.2"
+    jest-cli "^28.1.3"
+
+js-sdsl@^4.1.4:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/js-sdsl/-/js-sdsl-4.3.0.tgz#aeefe32a451f7af88425b11fdb5f58c90ae1d711"
+  integrity sha512-mifzlm2+5nZ+lEcLJMoBK0/IH/bDg8XnJfd/Wq6IP+xoCjLZsTOnV2QpxlVbX9bMnkl5PdEjNtBJ9Cj1NjifhQ==
 
 js-string-escape@^1.0.1:
   version "1.0.1"
@@ -11661,13 +11671,6 @@ punycode@^2.1.0, punycode@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-
-qs@6.10.3:
-  version "6.10.3"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.10.3.tgz#d6cde1b2ffca87b5aa57889816c5f81535e22e8e"
-  integrity sha512-wr7M2E0OFRfIfJZjKGieI8lBKb7fRCH4Fv5KNPEs7gJ8jadvotdsS08PzOKR7opXhZ/Xkjtt3WF9g38drmyRqQ==
-  dependencies:
-    side-channel "^1.0.4"
 
 qs@6.11.0, qs@^6.10.0:
   version "6.11.0"

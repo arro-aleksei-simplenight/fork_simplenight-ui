@@ -5,6 +5,8 @@ module.exports = {
   safelist: [
     { pattern: /primary/, variants: ['hover'] },
     { pattern: /dark/, variants: ['hover'] },
+    { pattern: /error/, variants: ['hover'] },
+    { pattern: /warning/, variants: ['hover'] },
     { pattern: /border/ },
     'bg-transparent',
   ],
