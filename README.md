@@ -28,9 +28,9 @@ Run `yarn changeset` to update current versioning with patch and describe your t
 
 ## **Adding Icons to the library**
 
-Remember always to remove the height and width from the svg file.
-After that, run `yarn compile-icons` to convert the svg file to a react component.
-Finally, add the icon to the `src/icons/index.ts` and `src/icons/Icons.stories.mdx` files with a storybook story in its category.
+1. Remember always to remove the `height` and `width` from the svg file.
+2. After that, run `yarn compile-icons` to convert the svg file to a react component.
+3. Finally, add the icon to the `src/icons/index.ts` and `src/icons/Icons.stories.mdx` files with a storybook story in its category.
 
 ## **How to install this package**
 
