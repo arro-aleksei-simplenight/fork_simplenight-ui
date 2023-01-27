@@ -11,9 +11,12 @@
     "build": "rollup -c",
     "storybook": "start-storybook -p 6006 -s ./.storybook/images",
     "build-storybook": "build-storybook",
-    "prebuild": "rm -rf ./dist && yarn compile-icons && yarn copy-files && yarn css && yarn test"
+    "prebuild": "rm -rf ./dist && yarn compile-icons && yarn copy-files && yarn css && yarn test",
+    "chromatic": "chromatic --project-token=CHROMATIC_PROJECT_TOKEN --exit-zero-on-changes"
   },
-  "author": "Simplenight Team",
+  "author": {
+    "name": "Simplenight Team"
+  },
   "license": "MIT",
   "lint-staged": {
     "*.js": "eslint --cache --fix",
@@ -53,6 +56,7 @@
     "@typescript-eslint/parser": "^5.30.6",
     "autoprefixer": "^10.4.7",
     "babel-loader": "^8.2.5",
+    "chromatic": "^6.15.0",
     "copyfiles": "^2.4.1",
     "cssnano": "^5.1.12",
     "eslint": "^7.32.0 || ^8.2.0",
@@ -99,7 +103,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/simplenightdv"
   },
-  "repository": "https://github.com/simplenightdv/simplenight-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplenightdv/simplenight-ui.git"
+  },
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@tailwindcss/forms": "^0.5.3",
@@ -109,5 +116,11 @@
     "classnames": "^2.3.1",
     "country-telephone-data": "^0.6.3",
     "react-input-mask": "^2.0.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/simplenightdv/simplenight-ui/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/simplenightdv/simplenight-ui#readme",
+  "_id": "@simplenightdv/simplenight-ui@0.0.5"
 }
