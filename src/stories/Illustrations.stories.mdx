@@ -1,0 +1,138 @@
+import { Canvas, Meta, Story } from '@storybook/addon-docs';
+import { Heading, Paragraph } from '@/components';
+import { DocsCard, DocsColor, DocsWrapper, Status } from '@/helpers';
+// Illustrations
+import {
+  EmptyState,
+  Error500,
+  Error404,
+  ImageEmpty,
+  Itinerary,
+  NoContent,
+  OrderLookupIcon,
+  SimplenightLogo,
+} from '@/images';
+
+<Meta
+  parameters={{
+    viewMode: 'docs',
+    previewTabs: {
+      canvas: { hidden: true },
+    },
+  }}
+  title="Illustrations"
+/>
+
+<PageTitle src="postcss/vars" title="Illustrations" />
+
+<DocsCard label="Empty States" title="Illustrations">
+  <Status title="Design Published" />
+  <Paragraph size="medium" textColor="text-dark-1000">
+    This component displays the illustrations used in empty states.
+  </Paragraph>
+  <hr />
+  <Heading tag="h6" textColor="text-dark-700">
+    Properties & Variants
+  </Heading>
+  <div className="flex gap-6">
+    <div className="flex flex-col gap-3">
+      <Paragraph size="small" fontWeight="semibold" textColor="text-dark-1000">
+        Stroke Thickness:
+      </Paragraph>
+      <Paragraph size="small" fontWeight="semibold" textColor="text-dark-1000">
+        Stroke Color:
+        <br /><br />
+      </Paragraph>
+      <Paragraph size="small" fontWeight="semibold" textColor="text-dark-1000">
+        Gradient:
+        <br /><br />
+      </Paragraph>
+      <Paragraph size="small" fontWeight="semibold" textColor="text-dark-1000">
+        Full colors:
+        <br /><br />
+      </Paragraph>
+      <Paragraph size="small" fontWeight="semibold" textColor="text-dark-1000">
+        Size:
+      </Paragraph>
+    </div>
+    <div className="flex flex-col gap-3">
+      <Paragraph size="small" textColor="text-dark-1000">
+        <b>1px</b>: Child elements - <b>2px</b>: Main elements
+      </Paragraph>
+      <DocsColor variant="primary" intensity={500} text="Teal 500" hex="#9FDCE0" />
+      <div className="flex gap-4">
+        <DocsColor variant="primary" intensity={100} text="From: Teal 100" hex="#EDFBFC" />
+        <DocsColor variant="primary" intensity={500} text="To: Teal 200" hex="#D8EEF0" />
+      </div>
+      <DocsColor variant="primary" intensity={300} text="Teal 300" hex="#CCE6E8" />
+      <Paragraph size="small" textColor="text-dark-1000">
+        Switches between <b>Small</b> and <b>Large</b>.
+      </Paragraph>
+    </div>
+
+  </div>
+</DocsCard>
+
+<br />
+
+## Empty State Illustration
+
+<DocsWrapper size={200}>
+  <EmptyState variant="primary" />
+</DocsWrapper>
+
+<br />
+
+## Error 404 Illustration
+
+<DocsWrapper size={200}>
+  <Error404 variant="primary" />
+</DocsWrapper>
+
+<br />
+
+## Error 500 Illustration
+
+<DocsWrapper size={200}>
+  <Error500 variant="primary" />
+</DocsWrapper>
+
+<br />
+
+## Image Empty Illustration
+
+<DocsWrapper size={200}>
+  <ImageEmpty variant="primary" />
+</DocsWrapper>
+
+<br />
+
+## Itinerary Illustration
+
+<DocsWrapper size={200}>
+  <Itinerary variant="primary" />
+</DocsWrapper>
+
+<br />
+
+## No Content Illustration
+
+<DocsWrapper size={200}>
+  <NoContent variant="primary" />
+</DocsWrapper>
+
+<br />
+
+## Order Lookup Illustration
+
+<DocsWrapper size={200}>
+  <OrderLookupIcon variant="primary" />
+</DocsWrapper>
+
+<br />
+
+## Simplenight Logo Illustration
+
+<DocsWrapper size={200}>
+  <SimplenightLogo />
+</DocsWrapper>
