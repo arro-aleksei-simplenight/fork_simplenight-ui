@@ -1,5 +1,4 @@
-# Workflow name
-name: 'Publish on Chromatic'
+name: Chromatic
 
 # Event for the workflow
 on:
@@ -21,7 +20,7 @@ jobs:
         with:
           version: 16.x
       - name: Install dependencies
-      - run: npm install --ignore-scripts
+        run: npm install --ignore-scripts
       - name: Create Pull Request or Publish
         id: changesets
         uses: changesets/action@v1
