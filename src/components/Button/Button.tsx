@@ -1,62 +1,76 @@
 import React from 'react';
-import classnames from 'classnames';
 import useColorButton from '@/hooks';
+import Loader from '../Loader/Loader';
+import { useLoaderColor } from '@/hooks/useLoaderProperties';
+import IconWrapper from '../IconWrapper';
 
 export interface IButton {
-  children: React.ReactNode;
-  type?: 'primary' | 'outlined' | 'danger';
+  type?: 'primary' | 'outlined' | 'danger' | 'no-background';
   disabled?: boolean;
-  height?: string;
-  width?: string;
+  size?: 'large' | 'small';
   onClick?: () => void;
+  loading?: boolean;
+  icon?: React.ReactElement;
+  children?: string;
+  fullWidth?: boolean;
 }
 
 const defaultProps = {
   type: 'primary',
   disabled: false,
-  height: 'large',
-  width: '',
+  size: 'large',
   onClick: () => {},
+  loading: false,
+  children: '',
+  icon: '',
+  fullWidth: false,
 };
 
 const Button = ({
   children,
+  icon,
   type = 'primary',
   disabled = false,
-  height = 'large',
-  width = '',
+  size = 'large',
+  fullWidth = false,
   onClick,
+  loading = false,
 }: IButton) => {
   const colors = useColorButton(type);
+  const loaderColors = useLoaderColor(type);
 
-  let customHeight;
-  switch (height) {
-    case 'large':
-      customHeight = 'h-11';
-      break;
-    case 'small':
-      customHeight = 'h-8';
-      break;
-    default:
-      customHeight = height;
-      break;
-  }
+  const isLarge = size === 'large';
+  const height = isLarge ? 'h-11' : 'h-8';
+  const isSquare = children === '';
+  const padding = isSquare ? 'px-3' : 'px-6';
+  const width = !isSquare ? `w-full ${!fullWidth && 'md:w-auto'}` : '';
+  const iconSize = isLarge ? 24 : 16;
+  const fontSize = isLarge ? 'text-base ' : 'text-xs';
+  const loaderSize = isLarge ? 'button-large' : 'button-small';
+
+  const activeClasses = `${colors.default} ${colors.hover} ${colors.focused} ${colors.pressed} cursor-pointer`;
+  const disabledClasses = `cursor-not-allowed ${colors.disabled}`;
+  const loadingClasses = `cursor-not-allowed ${colors.loading}`;
 
   return (
     <button
       type="button"
-      className={classnames(
-        `flex justify-center items-center gap-1 border rounded ${customHeight} ${width}`,
-        {
-          [`cursor-pointer ${colors.default} ${colors.hover} ${colors.focused} ${colors.pressed}`]:
-            !disabled,
-          [`cursor-not-allowed ${colors.disabled}`]: disabled,
-        },
-      )}
+      className={`flex justify-center items-center gap-1 border rounded font-semibold leading-lg group
+      ${fontSize} ${height} ${padding} ${width}
+      ${!disabled && !loading ? activeClasses : ''}
+        ${disabled ? disabledClasses : ''}
+        ${loading ? loadingClasses : ''}
+        `}
       onClick={onClick}
       disabled={disabled}
     >
-      {children}
+      {loading && (
+        <div className="absolute">
+          <Loader size={loaderSize} {...loaderColors} />
+        </div>
+      )}
+      {icon && <IconWrapper size={iconSize}>{icon}</IconWrapper>}
+      {children && children}
     </button>
   );
 };
