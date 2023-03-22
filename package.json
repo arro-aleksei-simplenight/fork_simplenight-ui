@@ -1,6 +1,6 @@
 {
   "name": "@simplenight/ui",
-  "version": "0.0.8",
+  "version": "0.0.85",
   "description": "Simplenight Design System",
   "scripts": {
     "initialize": "yarn && husky install",
