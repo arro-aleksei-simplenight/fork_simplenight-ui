@@ -7,3 +7,5 @@ export { default as DualButton } from './DualButton';
 export { default as Counter } from './Counter';
 export { default as Toast } from './Toast';
 export { default as IconWrapper } from './IconWrapper';
+export * from './Inputs';
+export { default as FormField } from './FormField';

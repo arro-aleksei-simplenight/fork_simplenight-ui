@@ -50,7 +50,7 @@ const FormField = ({
         <section className="flex items-center gap-1">
           {label && <Label>{label}</Label>}
           {info && (
-            <Tooltip text="Sec Info">
+            <Tooltip text="Sec Info" position="top-center">
               <QuestionCircle className="text-dark-700 w-3.5" />
             </Tooltip>
           )}
