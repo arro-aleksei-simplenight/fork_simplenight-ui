@@ -10,16 +10,15 @@ const TextInput = ({
   placeholder,
   state = 'idle',
   value,
-  onChange,
+  ...rest
 }: TextInputProps) => (
   <BaseInput
     name={name}
-    type="text"
     inputSize={inputSize}
     placeholder={placeholder}
     state={state}
     value={value}
-    onChange={onChange}
+    {...rest}
   />
 );
 

@@ -27,7 +27,7 @@ const TextArea = ({
   placeholder = '',
   state = 'idle',
   value,
-  onChange,
+  ...rest
 }: TextAreaProps) => {
   const textSize = inputSize === 'small' ? 'text-sm' : 'text-base';
   const idleBorderColor = value ? 'border-dark-400' : 'border-dark-300';
@@ -41,6 +41,7 @@ const TextArea = ({
   };
 
   const isDisabled = state === 'disabled';
+
   return (
     <textarea
       rows={rows}
@@ -48,9 +49,9 @@ const TextArea = ({
       id={name}
       placeholder={placeholder}
       value={value}
-      onChange={onChange}
       className={`rounded w-full resize-none  ${colors[state]} ${textSize} `}
       disabled={isDisabled}
+      {...rest}
     />
   );
 };

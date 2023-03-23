@@ -16,8 +16,8 @@ const SearchInput = ({
   placeholder,
   state = 'idle',
   value,
-  onChange,
   onClear,
+  ...rest
 }: SearchInputProps) => {
   const iconSize = inputSize === 'large' ? 20 : 16;
 
@@ -42,14 +42,13 @@ const SearchInput = ({
         </IconWrapper>
       </div>
       <BaseInput
-        type="text"
         inputSize={inputSize}
         placeholder={placeholder}
         state={state}
         value={value}
-        onChange={onChange}
         rightPadding="pr-11"
         leftPadding="pl-11"
+        {...rest}
       />
       {showClearButton && (
         <button className="absolute right-3.5" onClick={onClear} type="button">
