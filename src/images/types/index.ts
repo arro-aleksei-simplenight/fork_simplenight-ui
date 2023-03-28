@@ -1,6 +1,5 @@
 import { SVGProps } from 'react';
 
-export interface ImageProps {
+export interface ImageProps extends SVGProps<SVGSVGElement> {
   variant?: 'primary' | 'dark' | 'error' | 'warning';
-  props: SVGProps<SVGSVGElement>;
 }
