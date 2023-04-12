@@ -1,6 +1,6 @@
 {
   "name": "@simplenight/ui",
-  "version": "0.1.3",
+  "version": "0.1.35",
   "description": "Simplenight Design System",
   "scripts": {
     "dev": "start-storybook -p 6006 -s ./.storybook/images",
@@ -23,6 +23,10 @@
     "**/*.ts": "eslint --cache --fix",
     "**/*.jsx": "eslint --cache --fix",
     "**/*.tsx": "eslint --cache --fix"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2"
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",
@@ -93,6 +97,12 @@
     "typescript": "^4.7.4"
   },
   "peerDependencies": {
+    "@headlessui/react": "^1.7.7",
+    "@types/country-telephone-data": "^0.6.1",
+    "@types/react-input-mask": "^3.0.2",
+    "classnames": "^2.3.1",
+    "country-telephone-data": "^0.6.3",
+    "react-input-mask": "^2.0.4",
     "react": ">=16.0.0",
     "react-dom": ">=16.0.0"
   },
@@ -105,16 +115,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simplenightdv/simplenight-ui.git"
-  },
-  "dependencies": {
-    "@headlessui/react": "^1.7.7",
-    "@tailwindcss/forms": "^0.5.3",
-    "@tailwindcss/line-clamp": "^0.4.2",
-    "@types/country-telephone-data": "^0.6.1",
-    "@types/react-input-mask": "^3.0.2",
-    "classnames": "^2.3.1",
-    "country-telephone-data": "^0.6.3",
-    "react-input-mask": "^2.0.4"
   },
   "bugs": {
     "url": "https://github.com/simplenightdv/simplenight-ui/issues"
