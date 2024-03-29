@@ -121,5 +121,6 @@
   },
   "readme": "ERROR: No README data found!",
   "homepage": "https://github.com/simplenightdv/simplenight-ui#readme",
-  "_id": "@simplenightdv/simplenight-ui@0.0.5"
+  "_id": "@simplenightdv/simplenight-ui@0.0.5",
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
